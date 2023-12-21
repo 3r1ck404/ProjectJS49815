@@ -24,7 +24,6 @@ class Categoria {
     static obtenerListaCategorias() {
         return Categoria.listaCategorias;
     }
-
 }
 
 let categoria1 = new Categoria('Color', 'COLOR', 'Categoria de colores', ['AMARILLO', 'NARANJA', 'BLANCO']);
