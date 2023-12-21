@@ -27,7 +27,6 @@ class Categoria {
 
 }
 
-
 let categoria1 = new Categoria('Color', 'COLOR', 'Categoria de colores', ['AMARILLO', 'NARANJA', 'BLANCO']);
 let categoria2 = new Categoria('Fruta', 'FRUTA', 'Categoria de frutas', ['CEREZA', 'MANZANA', 'PLATANO']);
 let categoria3 = new Categoria('Animal', 'ANIMAL', 'Categoria de animales', ['CABALLO', 'JIRAFA', 'ELEFANTE']);
@@ -36,7 +35,6 @@ do {
     usuario = prompt('Ingrese su nombre: ');
     textoValido = validarTexto(usuario);
 } while (textoValido === false)
-
 
 do {
     respuestaAccion = parseInt(prompt('Hola ' + usuario.toUpperCase() + ' !!!\n' + 'Ingresa el "número" de acción a realizar: \n1. JUGAR\n2. AGREGAR ELEMENTO A CATEGORIA\n'));
