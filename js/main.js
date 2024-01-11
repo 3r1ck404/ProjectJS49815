@@ -1,5 +1,4 @@
 let usuario;
-let respuestaUsuario;
 let intento = 0;
 let textoValido;
 let respuestaAccion;
@@ -61,34 +60,29 @@ function menuEvento() {
     } else {
         formMenu.style.display = 'none';
         formMenu.querySelector('input').value = '';
-        administrar(respuestaAccion);
+        seleccionarCategoria(respuestaAccion);
     }
 }
 
-function administrar(respuestaAccion) {
-    switch (respuestaAccion) {
-        case '1':
-            categorias = localStorage.getItem('categorias');
-            categorias = JSON.parse(categorias);
-            listarCategoria(categorias);
-            formCategoria.style.display = 'block';
+function seleccionarCategoria(respuestaAccion) {
+    categorias = localStorage.getItem('categorias');
+    categorias = JSON.parse(categorias);
 
-            formCategoria.querySelector('button').addEventListener('click', function () {
-                categoriaEvento(respuestaAccion);
-            });
-            break;
-        case '2':
-            categorias = localStorage.getItem('categorias');
-            categorias = JSON.parse(categorias);
-            listarCategoria(categorias);
+    formCategoria.style.display = 'block';
+    formCategoria.querySelector('input').value = '';
+    formCategoria.querySelector('h2').innerText = '';
+    formCategoria.querySelector('p.mensaje').innerText = '';
+    let categoriaText = '';
 
-            formCategoria.querySelector('button').addEventListener('click', function () {
-                categoriaEvento(respuestaAccion);
-            });
-            break;
-        default:
-            break;
+    for (let elemento of categorias) {
+        categoriaText += '<li>' + elemento.nombre.toUpperCase() + '</li>';
     }
+
+    formCategoria.querySelector('p').innerHTML = 'Escriba la categoria.\n\n' + '<br></br>' + categoriaText;
+
+    formCategoria.querySelector('button').addEventListener('click', function () {
+        categoriaEvento(respuestaAccion);
+    });
 }
 
 function categoriaEvento(proceso) {
@@ -181,9 +175,10 @@ function agregarEvento(categoriaAModificar) {
                 }
             }
             localStorage.setItem('categorias', JSON.stringify(categorias));
-            formAgregar.querySelector('p.mensaje').innerText = 'Se ha cargado el elemento';
+            formAgregar.querySelector('p.mensaje').innerText = 'Se ha cargado el elemento.';
+            formAgregar.querySelector('button').style.display = 'none';
         } else {
-            formAgregar.querySelector('p.mensaje').innerText = 'Ya existe el elemento';
+            formAgregar.querySelector('p.mensaje').innerText = 'Ya existe el elemento.';
         }
     } else {
         formAgregar.querySelector('p.mensaje').innerText = 'Ingrese solo letras.';
