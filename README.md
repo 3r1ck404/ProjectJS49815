@@ -6,4 +6,4 @@
 
 <span>![</span><span>3. Jugar</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/3r1ck404/ProjectJS49815/master/assets/Imagen03.png</span><span>)</span>
 
-<span>![</span><span>4. Jugar</span><span>]</span><span>(</span><span>assets/Imagen03.png</span><span>)</span>
+<span>![</span><span>4. Jugar</span><span>]</span><span>(</span><span>https://github.com/3r1ck404/ProjectJS49815/blob/master/Imagen03.jpg?raw=true</span><span>)</span>
