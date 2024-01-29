@@ -1,0 +1,18 @@
+.success-message {
+    font-size: 25px;
+    color: #ffffff !important;
+    background: #28a745 !important;
+    width: 30vw;
+}
+
+.error-message {
+    font-size: 25px;
+    color: #ffffff !important;
+    background: #dc3545 !important;
+}
+
+.warning-message {
+    font-size: 25px;
+    color: #ffffff !important;
+    background: #e89e30 !important;
+}

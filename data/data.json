@@ -1,0 +1,36 @@
+[
+    {
+        "nombre": "Animal",
+        "codigoNombre": "ANIMAL",
+        "descripcion": "Categoria de animales",
+        "lista_palabras": [
+            "JIRAFA", "ELEFANTE", "COCODRILO", "CANGURO", "HIENA",
+            "HIPOPOTAMO", "PANTERA", "RINOCERONTE", "CAMELLO", "TIGRE",
+            "MURCIELAGO", "ORNITORRINCO", "LEOPARDO", "MARIPOSA", "SURICATA",
+            "PINGUINO", "TORTUGA", "CABALLO", "ZORRO", "TIBURON", 
+            "AGUILA", "BUFALO", "CARACOL", "DELFIN", "RATON"
+        ]
+    },
+    {
+        "nombre": "Color",
+        "codigoNombre": "COLOR",
+        "descripcion": "Categoria de colores",
+        "lista_palabras": [
+            "AZUL", "ROJO", "VERDE", "AMARILLO", "NARANJA",
+            "MARRON", "VIOLETA", "GRIS", "BLANCO", "NEGRO",
+            "ROSADO", "CELESTE", "DORADO", "PLATEADO", "MORADO",
+            "TURQUESA", "MAGENTA", "CARMESI", "ESMERALDA", "LILA"
+        ]
+    },
+    {
+        "nombre": "Fruta",
+        "codigoNombre": "FRUTA",
+        "descripcion": "Categoria de fruta",
+        "lista_palabras": [
+            "PLATANO", "MANZANA", "NARANJA", "CIRUELO", "SANDIA",
+            "KIWI", "MEMBRILLO", "MANGO", "CEREZA", "FRESA",
+            "CIRUELA", "PAPAYA", "CHIRIMOYA", "MANDARINA", "FRAMBUESA",
+            "GUANABANA", "NISPERO", "TORONJA", "AGUACATE", "DURAZNO"
+        ]
+    }
+]
