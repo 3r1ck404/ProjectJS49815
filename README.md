@@ -1,7 +1,6 @@
 # ProjectJS49815 - ProyectoFinalCandela
 
 <span>![</span><span>1. Ingreso de nombre de usuario</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/3r1ck404/ProjectJS49815/master/assets/Imagen01.png</span><span>)</span>
-https://github.com/3r1ck404/ProjectJS49815/
 
 <span>![</span><span>2. Selección de la categoria</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/3r1ck404/ProjectJS49815/master/assets/Imagen02.png</span><span>)</span>
 
