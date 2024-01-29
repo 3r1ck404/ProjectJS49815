@@ -4,7 +4,7 @@ Descripción.
 
 El juego consiste en replicar el juego del ahorcado. El usuario ingresa su nombre, selecciona la categoria jugar. Se le mostrará una palabra de la categoria con pistas para que pueda adivinar. Solo podrá fallar 3 veces. Si el nombre de usuario ya existe en el juego, podrá acumular puntaje.
 
-Screenshoots
+Screenshots.
 
 • Nombre de jugador
 
