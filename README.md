@@ -1,8 +1,10 @@
 # ProjectJS49815 - ProyectoFinalCandela
-Descripción.
-El juego consiste en replicar el juego del ahorcado. El usuario ingresa su nombre, selecciona la categoria jugar. Se le mostrará una palabra de la categoria con pistas para que pueda adivinar. Solo tendrá 3 intentos de fallo. 
 
-Screenshoots.
+Descripción.
+
+El juego consiste en replicar el juego del ahorcado. El usuario ingresa su nombre, selecciona la categoria jugar. Se le mostrará una palabra de la categoria con pistas para que pueda adivinar. Solo podrá fallar 3 veces. 
+
+Screenshoots
 
 ● Nombre de jugador
 
